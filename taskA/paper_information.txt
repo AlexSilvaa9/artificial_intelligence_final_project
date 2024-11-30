@@ -1,0 +1,54 @@
+• Paper title.
+TEFDTA: a transformer encoder and fingerprint representation combined prediction method for bonded and non-bonded drug–target affinities
+
+• Link to the paper website.
+https://academic.oup.com/bioinformatics/article/40/1/btad778/7492659#477190003
+
+• Link to the paper pdf version.
+https://academic.oup.com/bioinformatics/article-pdf/40/1/btad778/58740337/btad778.pdf
+
+• Link to the code.
+https://github.com/lizongquan01/TEFDTA
+
+• Link to the dataset.
+https://github.com/lizongquan01/TEFDTA
+
+• Link to the paper in Scholar Google website.
+https://scholar.google.com/scholar?hl=es&as_sdt=0%2C5&q=TEFDTA%3A+a+transformer+encoder+and+fingerprint+representation+combined+prediction+method+for+bonded+and+non-bonded+drug%E2%80%93target+affinities&btnG=
+
+• Journal name.
+BIOINFORMATICS
+
+• Journal ISSN.
+1367-4803
+
+• JCR Edition.
+Science Citation Index Expanded (SCIE)
+
+• JCR Rank by Journal Impact Factor in the year 2023 (Category, JIF
+Rank, and JIF Quartile). If the journal has several categories,
+indicate them.
+
+JIF:4.4
+
+BIOTECHNOLOGY & APPLIED MICROBIOLOGY - SCIE: 78.4
+JIF RANK 	38/174
+JIF QUARTILE Q1
+JIF PERCENTILE 78.4
+
+MATHEMATICAL & COMPUTATIONAL BIOLOGY - SCIE: 90.2
+JIF RANK 7/66
+JIF QUARTILE Q1
+JIF PERCENTILE 90.2
+
+BIOCHEMICAL RESEARCH METHODS - SCIE: 87.6
+
+JIF RANK 11/85
+JIF QUARTILE Q1
+JIF PERCENTILE 87.6
+
+• Link to the journal JCR information website
+https://jcr.clarivate.com/jcr-jp/journal-profile?journal=BIOINFORMATICS&year=2023&fromPage=%2Fjcr%2Fhome
+
+
+

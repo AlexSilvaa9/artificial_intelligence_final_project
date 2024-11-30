@@ -1,0 +1,301 @@
+INFO:root:Training at Epoch 1 with loss 2.0441
+INFO:root:Validation at Epoch 1 with loss 0.7999, ci 0.6315186448222835, rm2 0.05643970269768729
+INFO:root:Training at Epoch 2 with loss 0.8686
+INFO:root:Validation at Epoch 2 with loss 0.8876, ci 0.6876873587513463, rm2 0.12986841707835928
+INFO:root:Training at Epoch 3 with loss 0.8050
+INFO:root:Validation at Epoch 3 with loss 0.9129, ci 0.7193243333686131, rm2 0.18047828876456215
+INFO:root:Training at Epoch 4 with loss 0.7519
+INFO:root:Validation at Epoch 4 with loss 0.7004, ci 0.7513523683080046, rm2 0.23421801684724658
+INFO:root:Training at Epoch 5 with loss 0.7030
+INFO:root:Validation at Epoch 5 with loss 0.8566, ci 0.7684623274665205, rm2 0.24336215770808028
+INFO:root:Training at Epoch 6 with loss 0.6641
+INFO:root:Validation at Epoch 6 with loss 0.7588, ci 0.7931730595625728, rm2 0.27015000055943544
+INFO:root:Training at Epoch 7 with loss 0.6399
+INFO:root:Validation at Epoch 7 with loss 0.7261, ci 0.7983585972568966, rm2 0.2980873962593966
+INFO:root:Training at Epoch 8 with loss 0.6231
+INFO:root:Validation at Epoch 8 with loss 0.6052, ci 0.7971480612746776, rm2 0.28384019627575374
+INFO:root:Training at Epoch 9 with loss 0.6001
+INFO:root:Validation at Epoch 9 with loss 0.7103, ci 0.8037527004563538, rm2 0.28836365752442444
+INFO:root:Training at Epoch 10 with loss 0.5944
+INFO:root:Validation at Epoch 10 with loss 0.6266, ci 0.8057406877058417, rm2 0.30342558384218976
+INFO:root:Training at Epoch 11 with loss 0.5722
+INFO:root:Validation at Epoch 11 with loss 0.6484, ci 0.805240869811544, rm2 0.29238413472645153
+INFO:root:Training at Epoch 12 with loss 0.5661
+INFO:root:Validation at Epoch 12 with loss 0.5844, ci 0.8051338632557387, rm2 0.3077565321604891
+INFO:root:Training at Epoch 13 with loss 0.5625
+INFO:root:Validation at Epoch 13 with loss 0.6463, ci 0.8114993914245335, rm2 0.3250453819819291
+INFO:root:Training at Epoch 14 with loss 0.5439
+INFO:root:Validation at Epoch 14 with loss 0.5976, ci 0.8155559126764246, rm2 0.37554787507375104
+INFO:root:Training at Epoch 15 with loss 0.5206
+INFO:root:Validation at Epoch 15 with loss 0.5559, ci 0.8167631411832824, rm2 0.3145435199647565
+INFO:root:Training at Epoch 16 with loss 0.5264
+INFO:root:Validation at Epoch 16 with loss 0.4855, ci 0.8227302158497333, rm2 0.38188554216616205
+INFO:root:Training at Epoch 17 with loss 0.4985
+INFO:root:Validation at Epoch 17 with loss 0.5216, ci 0.8244125534643665, rm2 0.36769650602252346
+INFO:root:Training at Epoch 18 with loss 0.4897
+INFO:root:Validation at Epoch 18 with loss 0.4805, ci 0.8245454361509391, rm2 0.394444112279501
+INFO:root:Training at Epoch 19 with loss 0.4622
+INFO:root:Validation at Epoch 19 with loss 0.4628, ci 0.8264801146798987, rm2 0.4500014918165295
+INFO:root:Training at Epoch 20 with loss 0.4518
+INFO:root:Validation at Epoch 20 with loss 0.4385, ci 0.8389788695127038, rm2 0.4492991992429778
+INFO:root:Training at Epoch 21 with loss 0.4390
+INFO:root:Validation at Epoch 21 with loss 0.4698, ci 0.8358101135592482, rm2 0.42824498461481075
+INFO:root:Training at Epoch 22 with loss 0.4205
+INFO:root:Validation at Epoch 22 with loss 0.4978, ci 0.8345447123975072, rm2 0.5052996452838395
+INFO:root:Training at Epoch 23 with loss 0.4050
+INFO:root:Validation at Epoch 23 with loss 0.4058, ci 0.8426404392949863, rm2 0.4515951258486482
+INFO:root:Training at Epoch 24 with loss 0.3954
+INFO:root:Validation at Epoch 24 with loss 0.3858, ci 0.8382043366060478, rm2 0.489930866968738
+INFO:root:Training at Epoch 25 with loss 0.3849
+INFO:root:Validation at Epoch 25 with loss 0.4940, ci 0.837540895960055, rm2 0.4966017215211432
+INFO:root:Training at Epoch 26 with loss 0.3766
+INFO:root:Validation at Epoch 26 with loss 0.3982, ci 0.8490987713312705, rm2 0.4940337492524929
+INFO:root:Training at Epoch 27 with loss 0.3614
+INFO:root:Validation at Epoch 27 with loss 0.3793, ci 0.8549533918354387, rm2 0.4739119431363109
+INFO:root:Training at Epoch 28 with loss 0.3504
+INFO:root:Validation at Epoch 28 with loss 0.4084, ci 0.8514710093947865, rm2 0.4804712717293482
+INFO:root:Training at Epoch 29 with loss 0.3456
+INFO:root:Validation at Epoch 29 with loss 0.3612, ci 0.837962696347302, rm2 0.5094614279403289
+INFO:root:Training at Epoch 30 with loss 0.3245
+INFO:root:Validation at Epoch 30 with loss 0.3846, ci 0.8481812387545837, rm2 0.4991918734949509
+INFO:root:Training at Epoch 31 with loss 0.3180
+INFO:root:Validation at Epoch 31 with loss 0.3588, ci 0.846624390646304, rm2 0.5578842353897303
+INFO:root:Training at Epoch 32 with loss 0.3093
+INFO:root:Validation at Epoch 32 with loss 0.3584, ci 0.8449648162444512, rm2 0.5165235000211964
+INFO:root:Training at Epoch 33 with loss 0.3045
+INFO:root:Validation at Epoch 33 with loss 0.3430, ci 0.8536307908056854, rm2 0.5231231900242845
+INFO:root:Training at Epoch 34 with loss 0.2905
+INFO:root:Validation at Epoch 34 with loss 0.3643, ci 0.8533373982854048, rm2 0.5439783467422856
+INFO:root:Training at Epoch 35 with loss 0.2765
+INFO:root:Validation at Epoch 35 with loss 0.3767, ci 0.8497143508632121, rm2 0.575938061966463
+INFO:root:Training at Epoch 36 with loss 0.2686
+INFO:root:Validation at Epoch 36 with loss 0.3524, ci 0.860317144084522, rm2 0.5667822905930576
+INFO:root:Training at Epoch 37 with loss 0.2542
+INFO:root:Validation at Epoch 37 with loss 0.3841, ci 0.8705995013105384, rm2 0.5596571596685114
+INFO:root:Training at Epoch 38 with loss 0.2532
+INFO:root:Validation at Epoch 38 with loss 0.3341, ci 0.8594679011461764, rm2 0.5094396067356224
+INFO:root:Training at Epoch 39 with loss 0.2367
+INFO:root:Validation at Epoch 39 with loss 0.3061, ci 0.8754916464845817, rm2 0.5676764016246495
+INFO:root:Training at Epoch 40 with loss 0.2269
+INFO:root:Validation at Epoch 40 with loss 0.3143, ci 0.8745992118091657, rm2 0.5957859515399404
+INFO:root:Training at Epoch 41 with loss 0.2169
+INFO:root:Validation at Epoch 41 with loss 0.3183, ci 0.8614364326582452, rm2 0.5913157128600891
+INFO:root:Training at Epoch 42 with loss 0.2112
+INFO:root:Validation at Epoch 42 with loss 0.2948, ci 0.866825088251225, rm2 0.5622102904020798
+INFO:root:Training at Epoch 43 with loss 0.2005
+INFO:root:Validation at Epoch 43 with loss 0.2944, ci 0.8778080465817047, rm2 0.5675605180806899
+INFO:root:Training at Epoch 44 with loss 0.1906
+INFO:root:Validation at Epoch 44 with loss 0.2982, ci 0.8727193984597282, rm2 0.6053890495664107
+INFO:root:Training at Epoch 45 with loss 0.1902
+INFO:root:Validation at Epoch 45 with loss 0.3115, ci 0.8633127439749473, rm2 0.6191330117285802
+INFO:root:Training at Epoch 46 with loss 0.1809
+INFO:root:Validation at Epoch 46 with loss 0.2951, ci 0.8726184231825228, rm2 0.6152913493047348
+INFO:root:Training at Epoch 47 with loss 0.1719
+INFO:root:Validation at Epoch 47 with loss 0.2741, ci 0.8862977521619215, rm2 0.6017415486564098
+INFO:root:Training at Epoch 48 with loss 0.1669
+INFO:root:Validation at Epoch 48 with loss 0.2868, ci 0.874703300004358, rm2 0.5700104182755632
+INFO:root:Training at Epoch 49 with loss 0.1533
+INFO:root:Validation at Epoch 49 with loss 0.2695, ci 0.8754721907471625, rm2 0.6315187031739923
+INFO:root:Training at Epoch 50 with loss 0.1494
+INFO:root:Validation at Epoch 50 with loss 0.2867, ci 0.8770270932817004, rm2 0.5944708110488317
+INFO:root:Training at Epoch 51 with loss 0.1471
+INFO:root:Validation at Epoch 51 with loss 0.2703, ci 0.8804742608376239, rm2 0.611374332804066
+INFO:root:Training at Epoch 52 with loss 0.1400
+INFO:root:Validation at Epoch 52 with loss 0.2672, ci 0.878153775035643, rm2 0.6270164730633232
+INFO:root:Training at Epoch 53 with loss 0.1312
+INFO:root:Validation at Epoch 53 with loss 0.2665, ci 0.8810664934846627, rm2 0.6199001634370777
+INFO:root:Training at Epoch 54 with loss 0.1274
+INFO:root:Validation at Epoch 54 with loss 0.2634, ci 0.8735978250042025, rm2 0.6146740634724228
+INFO:root:Training at Epoch 55 with loss 0.1205
+INFO:root:Validation at Epoch 55 with loss 0.2605, ci 0.8895855772283824, rm2 0.5788702441597415
+INFO:root:Training at Epoch 56 with loss 0.1157
+INFO:root:Validation at Epoch 56 with loss 0.2732, ci 0.8697226312250578, rm2 0.6070964426509962
+INFO:root:Training at Epoch 57 with loss 0.1125
+INFO:root:Validation at Epoch 57 with loss 0.2645, ci 0.8767800054164773, rm2 0.6521777720491516
+INFO:root:Training at Epoch 58 with loss 0.1109
+INFO:root:Validation at Epoch 58 with loss 0.2511, ci 0.8772862437041233, rm2 0.6435731810513187
+INFO:root:Training at Epoch 59 with loss 0.1024
+INFO:root:Validation at Epoch 59 with loss 0.2615, ci 0.8806104509995579, rm2 0.6302189912861458
+INFO:root:Training at Epoch 60 with loss 0.1003
+INFO:root:Validation at Epoch 60 with loss 0.2552, ci 0.8801112167773828, rm2 0.6761239010976586
+INFO:root:Training at Epoch 61 with loss 0.0929
+INFO:root:Validation at Epoch 61 with loss 0.2589, ci 0.8770475218059905, rm2 0.6409917241122767
+INFO:root:Training at Epoch 62 with loss 0.0963
+INFO:root:Validation at Epoch 62 with loss 0.2453, ci 0.8867502926142908, rm2 0.6223117204959265
+INFO:root:Training at Epoch 63 with loss 0.0894
+INFO:root:Validation at Epoch 63 with loss 0.2577, ci 0.8813460724313757, rm2 0.6408478265900223
+INFO:root:Training at Epoch 64 with loss 0.0877
+INFO:root:Validation at Epoch 64 with loss 0.2643, ci 0.876636422074324, rm2 0.6477638647851747
+INFO:root:Training at Epoch 65 with loss 0.0807
+INFO:root:Validation at Epoch 65 with loss 0.2767, ci 0.8785267415219679, rm2 0.6626909796538517
+INFO:root:Training at Epoch 66 with loss 0.0790
+INFO:root:Validation at Epoch 66 with loss 0.2515, ci 0.8841183204562293, rm2 0.6280845668590628
+INFO:root:Training at Epoch 67 with loss 0.0758
+INFO:root:Validation at Epoch 67 with loss 0.2423, ci 0.882301738253404, rm2 0.6705557142876304
+INFO:root:Training at Epoch 68 with loss 0.0741
+INFO:root:Validation at Epoch 68 with loss 0.2476, ci 0.8839206501640507, rm2 0.6495091562048789
+INFO:root:Training at Epoch 69 with loss 0.0703
+INFO:root:Validation at Epoch 69 with loss 0.2447, ci 0.8798617942236694, rm2 0.6655995582384492
+INFO:root:Training at Epoch 70 with loss 0.0683
+INFO:root:Validation at Epoch 70 with loss 0.2492, ci 0.8826675061168838, rm2 0.6481475251853825
+INFO:root:Training at Epoch 71 with loss 0.0670
+INFO:root:Validation at Epoch 71 with loss 0.2436, ci 0.8868339522851931, rm2 0.6367659129410163
+INFO:root:Training at Epoch 72 with loss 0.0651
+INFO:root:Validation at Epoch 72 with loss 0.2551, ci 0.8808524803730521, rm2 0.6567984773321336
+INFO:root:Training at Epoch 73 with loss 0.0626
+INFO:root:Validation at Epoch 73 with loss 0.2417, ci 0.8833282229596379, rm2 0.663355258108989
+INFO:root:Training at Epoch 74 with loss 0.0614
+INFO:root:Validation at Epoch 74 with loss 0.2579, ci 0.8869010745792891, rm2 0.6561071808596495
+INFO:root:Training at Epoch 75 with loss 0.0580
+INFO:root:Validation at Epoch 75 with loss 0.2462, ci 0.8864279110452556, rm2 0.6493219124066311
+INFO:root:Training at Epoch 76 with loss 0.0553
+INFO:root:Validation at Epoch 76 with loss 0.2313, ci 0.8869174173987212, rm2 0.6890323887074139
+INFO:root:Training at Epoch 77 with loss 0.0566
+INFO:root:Validation at Epoch 77 with loss 0.2510, ci 0.8851885805716563, rm2 0.6879092648488772
+INFO:root:Training at Epoch 78 with loss 0.0529
+INFO:root:Validation at Epoch 78 with loss 0.2555, ci 0.8833315304349991, rm2 0.6857346405141032
+INFO:root:Training at Epoch 79 with loss 0.0518
+INFO:root:Validation at Epoch 79 with loss 0.2421, ci 0.8809645454205863, rm2 0.677367785836747
+INFO:root:Training at Epoch 80 with loss 0.0516
+INFO:root:Validation at Epoch 80 with loss 0.2470, ci 0.8852440294233008, rm2 0.6676026700644715
+INFO:root:Training at Epoch 81 with loss 0.0494
+INFO:root:Validation at Epoch 81 with loss 0.2321, ci 0.8864222688814041, rm2 0.6544103181995043
+INFO:root:Training at Epoch 82 with loss 0.0510
+INFO:root:Validation at Epoch 82 with loss 0.2343, ci 0.890823156685614, rm2 0.6767140513000132
+INFO:root:Training at Epoch 83 with loss 0.0474
+INFO:root:Validation at Epoch 83 with loss 0.2494, ci 0.8898511480441537, rm2 0.6669879147245654
+INFO:root:Training at Epoch 84 with loss 0.0476
+INFO:root:Validation at Epoch 84 with loss 0.2369, ci 0.8907025311136153, rm2 0.6823624414849222
+INFO:root:Training at Epoch 85 with loss 0.0468
+INFO:root:Validation at Epoch 85 with loss 0.2427, ci 0.8859522182653575, rm2 0.6914848492592587
+INFO:root:Training at Epoch 86 with loss 0.0453
+INFO:root:Validation at Epoch 86 with loss 0.2586, ci 0.8814272028564135, rm2 0.6836657805573656
+INFO:root:Training at Epoch 87 with loss 0.0464
+INFO:root:Validation at Epoch 87 with loss 0.2355, ci 0.8865936739280667, rm2 0.7273453446738122
+INFO:root:Training at Epoch 88 with loss 0.0433
+INFO:root:Validation at Epoch 88 with loss 0.2376, ci 0.8844471224186128, rm2 0.6600711623516893
+INFO:root:Training at Epoch 89 with loss 0.0414
+INFO:root:Validation at Epoch 89 with loss 0.2450, ci 0.8843490655020203, rm2 0.7183478181853906
+INFO:root:Training at Epoch 90 with loss 0.0410
+INFO:root:Validation at Epoch 90 with loss 0.2427, ci 0.8825554410693496, rm2 0.6665805054943237
+INFO:root:Training at Epoch 91 with loss 0.0402
+INFO:root:Validation at Epoch 91 with loss 0.2344, ci 0.8853117353895195, rm2 0.6945782759868973
+INFO:root:Training at Epoch 92 with loss 0.0400
+INFO:root:Validation at Epoch 92 with loss 0.2393, ci 0.8802116083824656, rm2 0.6877359293395952
+INFO:root:Training at Epoch 93 with loss 0.0388
+INFO:root:Validation at Epoch 93 with loss 0.2249, ci 0.8903865699379284, rm2 0.7009529357304953
+INFO:root:Training at Epoch 94 with loss 0.0387
+INFO:root:Validation at Epoch 94 with loss 0.2363, ci 0.8916506091980501, rm2 0.7010119712584686
+INFO:root:Training at Epoch 95 with loss 0.0360
+INFO:root:Validation at Epoch 95 with loss 0.2268, ci 0.8931586234054077, rm2 0.6879758370351471
+INFO:root:Training at Epoch 96 with loss 0.0342
+INFO:root:Validation at Epoch 96 with loss 0.2256, ci 0.8944816135499094, rm2 0.7090594004303094
+INFO:root:Training at Epoch 97 with loss 0.0364
+INFO:root:Validation at Epoch 97 with loss 0.2224, ci 0.8909118748482453, rm2 0.6793635682141116
+INFO:root:Training at Epoch 98 with loss 0.0375
+INFO:root:Validation at Epoch 98 with loss 0.2308, ci 0.8930099815715256, rm2 0.7219902013342239
+INFO:root:Training at Epoch 99 with loss 0.0352
+INFO:root:Validation at Epoch 99 with loss 0.2294, ci 0.8895040576885961, rm2 0.7164768537363787
+INFO:root:Training at Epoch 100 with loss 0.0364
+INFO:root:Validation at Epoch 100 with loss 0.2272, ci 0.8848360426096215, rm2 0.7182643789766104
+INFO:root:Training at Epoch 101 with loss 0.0336
+INFO:root:Validation at Epoch 101 with loss 0.2262, ci 0.8943057336836404, rm2 0.714856678614248
+INFO:root:Training at Epoch 102 with loss 0.0344
+INFO:root:Validation at Epoch 102 with loss 0.2200, ci 0.8866098221901246, rm2 0.7000598020637876
+INFO:root:Training at Epoch 103 with loss 0.0334
+INFO:root:Validation at Epoch 103 with loss 0.2298, ci 0.8918179285398546, rm2 0.6878569797033013
+INFO:root:Training at Epoch 104 with loss 0.0357
+INFO:root:Validation at Epoch 104 with loss 0.2226, ci 0.8892423780203087, rm2 0.6942495005300043
+INFO:root:Training at Epoch 105 with loss 0.0322
+INFO:root:Validation at Epoch 105 with loss 0.2348, ci 0.8864209069797847, rm2 0.7089042839991733
+INFO:root:Training at Epoch 106 with loss 0.0353
+INFO:root:Validation at Epoch 106 with loss 0.2358, ci 0.8893958837885457, rm2 0.7005086458799619
+INFO:root:Training at Epoch 107 with loss 0.0346
+INFO:root:Validation at Epoch 107 with loss 0.2218, ci 0.8914805660530067, rm2 0.6886854424915693
+INFO:root:Training at Epoch 108 with loss 0.0315
+INFO:root:Validation at Epoch 108 with loss 0.2330, ci 0.8943555403714334, rm2 0.715900771218244
+INFO:root:Training at Epoch 109 with loss 0.0314
+INFO:root:Validation at Epoch 109 with loss 0.2165, ci 0.8915904909694249, rm2 0.7380635835000664
+INFO:root:Training at Epoch 110 with loss 0.0298
+INFO:root:Validation at Epoch 110 with loss 0.2285, ci 0.8888355585508744, rm2 0.697755390227517
+INFO:root:Training at Epoch 111 with loss 0.0286
+INFO:root:Validation at Epoch 111 with loss 0.2249, ci 0.8937603893637818, rm2 0.7271776622923035
+INFO:root:Training at Epoch 112 with loss 0.0311
+INFO:root:Validation at Epoch 112 with loss 0.2300, ci 0.8890544355968397, rm2 0.7277398900925516
+INFO:root:Training at Epoch 113 with loss 0.0313
+INFO:root:Validation at Epoch 113 with loss 0.2231, ci 0.8880106352843028, rm2 0.7147776437182666
+INFO:root:Training at Epoch 114 with loss 0.0297
+INFO:root:Validation at Epoch 114 with loss 0.2216, ci 0.8881709505606366, rm2 0.7218308238925827
+INFO:root:Training at Epoch 115 with loss 0.0302
+INFO:root:Validation at Epoch 115 with loss 0.2174, ci 0.8962053918852454, rm2 0.7092902592617749
+INFO:root:Training at Epoch 116 with loss 0.0276
+INFO:root:Validation at Epoch 116 with loss 0.2302, ci 0.8852872211603713, rm2 0.7312508433784684
+INFO:root:Training at Epoch 117 with loss 0.0299
+INFO:root:Validation at Epoch 117 with loss 0.2243, ci 0.8920667674214455, rm2 0.7184728196508099
+INFO:root:Training at Epoch 118 with loss 0.0284
+INFO:root:Validation at Epoch 118 with loss 0.2270, ci 0.8922531533859209, rm2 0.6937689818544351
+INFO:root:Training at Epoch 119 with loss 0.0292
+INFO:root:Validation at Epoch 119 with loss 0.2272, ci 0.8922512078121789, rm2 0.7091461766754689
+INFO:root:Training at Epoch 120 with loss 0.0289
+INFO:root:Validation at Epoch 120 with loss 0.2254, ci 0.8958308689399269, rm2 0.7169234362873743
+INFO:root:Training at Epoch 121 with loss 0.0280
+INFO:root:Validation at Epoch 121 with loss 0.2196, ci 0.8950135334109488, rm2 0.7051710966380771
+INFO:root:Training at Epoch 122 with loss 0.0260
+INFO:root:Validation at Epoch 122 with loss 0.2190, ci 0.8936403474639057, rm2 0.7179444820503911
+INFO:root:Training at Epoch 123 with loss 0.0268
+INFO:root:Validation at Epoch 123 with loss 0.2232, ci 0.8888618237963902, rm2 0.7256895342320798
+INFO:root:Training at Epoch 124 with loss 0.0267
+INFO:root:Validation at Epoch 124 with loss 0.2197, ci 0.8961178410668592, rm2 0.7219443348607046
+INFO:root:Training at Epoch 125 with loss 0.0267
+INFO:root:Validation at Epoch 125 with loss 0.2314, ci 0.8899589328294557, rm2 0.713686196598166
+INFO:root:Training at Epoch 126 with loss 0.0252
+INFO:root:Validation at Epoch 126 with loss 0.2291, ci 0.8937730355931043, rm2 0.7260919691734363
+INFO:root:Training at Epoch 127 with loss 0.0250
+INFO:root:Validation at Epoch 127 with loss 0.2174, ci 0.8965252442084161, rm2 0.6851713411442106
+INFO:root:Training at Epoch 128 with loss 0.0250
+INFO:root:Validation at Epoch 128 with loss 0.2145, ci 0.896053637133376, rm2 0.7269380226584305
+INFO:root:Training at Epoch 129 with loss 0.0248
+INFO:root:Validation at Epoch 129 with loss 0.2165, ci 0.8966878941732401, rm2 0.6957904447133716
+INFO:root:Training at Epoch 130 with loss 0.0264
+INFO:root:Validation at Epoch 130 with loss 0.2297, ci 0.8910684935344694, rm2 0.7153352715663471
+INFO:root:Training at Epoch 131 with loss 0.0252
+INFO:root:Validation at Epoch 131 with loss 0.2161, ci 0.8950645074429869, rm2 0.7126333783086157
+INFO:root:Training at Epoch 132 with loss 0.0258
+INFO:root:Validation at Epoch 132 with loss 0.2213, ci 0.8912772535969767, rm2 0.7296818926956753
+INFO:root:Training at Epoch 133 with loss 0.0246
+INFO:root:Validation at Epoch 133 with loss 0.2204, ci 0.8940142867371016, rm2 0.7369624268606203
+INFO:root:Training at Epoch 134 with loss 0.0235
+INFO:root:Validation at Epoch 134 with loss 0.2241, ci 0.8917990564745581, rm2 0.7337282225766758
+INFO:root:Training at Epoch 135 with loss 0.0242
+INFO:root:Validation at Epoch 135 with loss 0.2138, ci 0.896979535677153, rm2 0.6949132666114964
+INFO:root:Training at Epoch 136 with loss 0.0233
+INFO:root:Validation at Epoch 136 with loss 0.2201, ci 0.891048843239676, rm2 0.7258026614890551
+INFO:root:Training at Epoch 137 with loss 0.0234
+INFO:root:Validation at Epoch 137 with loss 0.2210, ci 0.8918101462448871, rm2 0.7360989312597696
+INFO:root:Training at Epoch 138 with loss 0.0233
+INFO:root:Validation at Epoch 138 with loss 0.2181, ci 0.8978538765167693, rm2 0.7308390924698758
+INFO:root:Training at Epoch 139 with loss 0.0248
+INFO:root:Validation at Epoch 139 with loss 0.2181, ci 0.9004751480192503, rm2 0.723157141226576
+INFO:root:Training at Epoch 140 with loss 0.0242
+INFO:root:Validation at Epoch 140 with loss 0.2183, ci 0.8984856043107688, rm2 0.7310337085901817
+INFO:root:Training at Epoch 141 with loss 0.0237
+INFO:root:Validation at Epoch 141 with loss 0.2108, ci 0.8990533227286593, rm2 0.7317345790133404
+INFO:root:Training at Epoch 142 with loss 0.0222
+INFO:root:Validation at Epoch 142 with loss 0.2161, ci 0.8971172822980805, rm2 0.7008214019500737
+INFO:root:Training at Epoch 143 with loss 0.0236
+INFO:root:Validation at Epoch 143 with loss 0.2171, ci 0.8973431634095168, rm2 0.7124435283009434
+INFO:root:Training at Epoch 144 with loss 0.0221
+INFO:root:Validation at Epoch 144 with loss 0.2116, ci 0.8950111987224585, rm2 0.7297220305291513
+INFO:root:Training at Epoch 145 with loss 0.0227
+INFO:root:Validation at Epoch 145 with loss 0.2094, ci 0.8975783832749142, rm2 0.7336434223745681
+INFO:root:Training at Epoch 146 with loss 0.0234
+INFO:root:Validation at Epoch 146 with loss 0.2072, ci 0.8962337972618774, rm2 0.7449692272513327
+INFO:root:Training at Epoch 147 with loss 0.0226
+INFO:root:Validation at Epoch 147 with loss 0.2109, ci 0.9010529834205988, rm2 0.7358986728457583
+INFO:root:Training at Epoch 148 with loss 0.0225
+INFO:root:Validation at Epoch 148 with loss 0.2119, ci 0.8968040449256324, rm2 0.7321852344769177
+INFO:root:Training at Epoch 149 with loss 0.0221
+INFO:root:Validation at Epoch 149 with loss 0.2132, ci 0.9002210560885563, rm2 0.7228220692043982
+INFO:root:Training at Epoch 150 with loss 0.0217
+INFO:root:Validation at Epoch 150 with loss 0.2100, ci 0.897893177106356, rm2 0.7329619847421317
+INFO:root:Test loss 0.2179, ci 0.8776544936899929, rm2 0.7231079975460135
