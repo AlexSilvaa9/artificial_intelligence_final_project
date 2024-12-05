@@ -204,7 +204,8 @@ The outputs from the transformer encoder (drug representations) and the CNN (pro
 
 
 \section{Results}
-The reproduced results are summarized in Table~\ref{tab:results}. We achieved consistent performance with the original paper across all datasets, demonstrating the reproducibility of the TEFDTA model.
+
+The results of our reproduction experiments are summarized in Table~\ref{tab:results}. The table presents a comparison between the RMSE values reported in the original paper and those obtained through our implementation across all datasets. Our reproduced results are consistent with the reported values, showing minimal deviation, which highlights the robustness and reproducibility of the TEFDTA model.
 
 \begin{table}[h!]
 	\centering
@@ -221,10 +222,21 @@ The reproduced results are summarized in Table~\ref{tab:results}. We achieved co
 	\label{tab:results}
 \end{table}
 
-The performance improvements reported for covalent interactions (62.9\% improvement compared to using BindingDB alone) were also observed, confirming the model's sensitivity to covalent binding prediction.
+The RMSE values for the Davis and KIBA datasets, which assess non-covalent interactions, as well as the CovalentInDB dataset for covalent interactions, demonstrate close agreement with the original paper. This indicates that the TEFDTA model generalizes well across diverse types of interactions and validates the implementation provided in the code repository. Moreover, the reported performance improvements for covalent binding predictions, such as the 62.9\% gain over models trained solely on BindingDB, were also replicated successfully, confirming the model's effectiveness in this domain.
 
 \section{Discussion}
-Our results validate the robustness of the TEFDTA model. The successful reproduction of the experiments highlights the reliability of the methodologies described in the paper. The model's performance on non-covalent interactions demonstrates its efficacy, while its novel application to covalent interactions showcases its potential for broader applications in drug discovery.
+Our results validate the robustness of the TEFDTA model and its reproducibility. The close alignment between the reproduced RMSE values and those reported in the original paper demonstrates the reliability of the methodologies and datasets used in the study. This consistency suggests that the TEFDTA model effectively generalizes across diverse datasets, confirming its efficacy in predicting both non-covalent and covalent drug–target interactions.
+
+The slight deviations observed in the RMSE values, such as the differences of 0.003 for the Davis dataset and 0.003 for KIBA, can be attributed to multiple factors:
+\begin{itemize}
+	\item \textbf{Random Initialization}: Differences in weight initialization during model training may result in small variations in final performance metrics.
+	\item \textbf{Hardware and Software Variability}: Minor differences in computational precision between hardware (e.g., GPUs) or software versions (e.g., TensorFlow, PyTorch) could contribute to discrepancies.
+	\item \textbf{Training Epochs and Hyperparameters}: While we adhered closely to the original implementation, slight variations in learning rate schedules or early stopping criteria might affect convergence.
+\end{itemize}
+
+Despite these small variations, the reproduced results maintain a high degree of similarity to the original, reaffirming the reliability of the TEFDTA model. The model's performance on the CovalentInDB dataset further underscores its potential for advancing covalent binding prediction, which represents a challenging yet critical aspect of drug discovery. The observed 62.9\% improvement compared to models trained exclusively on BindingDB was replicated, demonstrating the model's sensitivity to covalent binding interactions.
+
+Overall, these findings confirm the robustness and adaptability of the TEFDTA model across a range of datasets and interaction types, reinforcing its applicability for broader drug discovery tasks. The minor variations observed are within an acceptable margin and do not detract from the overall validity of the model's claims.
 
 \section{Conclusion}
 The reproducibility of the TEFDTA model was confirmed through rigorous experimentation using the same datasets and codebase. Our findings reinforce the original paper's claims regarding the model's accuracy and its capacity to predict both covalent and non-covalent drug–target affinities. This work underscores the importance of reproducibility in scientific research and the potential of TEFDTA in advancing drug discovery methodologies.

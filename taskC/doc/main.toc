@@ -9,10 +9,10 @@
 \contentsline {subsection}{\numberline {4.4}Integration of Feature Representations}{4}{subsection.4.4}%
 \contentsline {section}{\numberline {5}Results}{4}{section.5}%
 \contentsline {section}{\numberline {6}Discussion}{4}{section.6}%
-\contentsline {section}{\numberline {7}Conclusion}{4}{section.7}%
-\contentsline {section}{\numberline {8}segunda respuesta}{4}{section.8}%
-\contentsline {section}{\numberline {9}Statistical Analysis of Benchmark Datasets}{4}{section.9}%
-\contentsline {section}{\numberline {10}Transformer Encoder Block}{4}{section.10}%
-\contentsline {section}{\numberline {11}Convolutional Neural Network (CNN) Block}{5}{section.11}%
-\contentsline {section}{\numberline {12}Evaluation Metrics}{5}{section.12}%
+\contentsline {section}{\numberline {7}Conclusion}{5}{section.7}%
+\contentsline {section}{\numberline {8}segunda respuesta}{5}{section.8}%
+\contentsline {section}{\numberline {9}Statistical Analysis of Benchmark Datasets}{5}{section.9}%
+\contentsline {section}{\numberline {10}Transformer Encoder Block}{5}{section.10}%
+\contentsline {section}{\numberline {11}Convolutional Neural Network (CNN) Block}{6}{section.11}%
+\contentsline {section}{\numberline {12}Evaluation Metrics}{6}{section.12}%
 \contentsline {section}{\numberline {13}Comparison with Benchmark Models}{6}{section.13}%
