@@ -1,13 +1,18 @@
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
-\contentsline {section}{\numberline {2}Methodology}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Datasets}{2}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Model Implementation}{2}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Results}{2}{section.3}%
-\contentsline {section}{\numberline {4}Discussion}{3}{section.4}%
-\contentsline {section}{\numberline {5}Conclusion}{3}{section.5}%
-\contentsline {section}{\numberline {6}segunda respuesta}{3}{section.6}%
-\contentsline {section}{\numberline {7}Statistical Analysis of Benchmark Datasets}{3}{section.7}%
-\contentsline {section}{\numberline {8}Transformer Encoder Block}{3}{section.8}%
-\contentsline {section}{\numberline {9}Convolutional Neural Network (CNN) Block}{4}{section.9}%
-\contentsline {section}{\numberline {10}Evaluation Metrics}{4}{section.10}%
-\contentsline {section}{\numberline {11}Comparison with Benchmark Models}{4}{section.11}%
+\contentsline {section}{\numberline {2}Objectives}{2}{section.2}%
+\contentsline {section}{\numberline {3}Methodology}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Datasets}{2}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Model Implementation}{2}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Statistical Analysis of Benchmark Datasets}{3}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Transformer Encoder Block}{3}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Convolutional Neural Network (CNN) Block}{3}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Integration of Feature Representations}{4}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Results}{4}{section.5}%
+\contentsline {section}{\numberline {6}Discussion}{4}{section.6}%
+\contentsline {section}{\numberline {7}Conclusion}{4}{section.7}%
+\contentsline {section}{\numberline {8}segunda respuesta}{4}{section.8}%
+\contentsline {section}{\numberline {9}Statistical Analysis of Benchmark Datasets}{4}{section.9}%
+\contentsline {section}{\numberline {10}Transformer Encoder Block}{4}{section.10}%
+\contentsline {section}{\numberline {11}Convolutional Neural Network (CNN) Block}{5}{section.11}%
+\contentsline {section}{\numberline {12}Evaluation Metrics}{5}{section.12}%
+\contentsline {section}{\numberline {13}Comparison with Benchmark Models}{6}{section.13}%

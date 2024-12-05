@@ -26,6 +26,10 @@
 %estilo python
 \usepackage{xcolor}
 
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs} % Para las tablas bonitas como \toprule, \midrule, etc.
+
 % Define the colors for the style
 \definecolor{BG}{rgb}{0.95,0.95,0.95}  % Background color
 \definecolor{keywordcolor}{rgb}{0.0,0.0,1.0} % Blue for keywords
@@ -124,27 +128,80 @@
 \end{abstract}
 
 \section{Introduction}
-The prediction of drug–target interactions (DTI) is a critical step in drug discovery. The TEFDTA model introduced in the paper leverages a transformer encoder and fingerprint representations to predict both bonded and non-bonded drug–target affinities, addressing limitations in existing approaches.
+The prediction of drug–target interactions (DTI) is a critical challenge in drug discovery, as it determines the binding affinity between small molecules and specific proteins. Recent advancements in deep learning have significantly improved prediction accuracy, yet many methods struggle with covalent interactions, which are increasingly relevant in therapeutic research.
+\\
 
-The objective of this study was to reproduce the experiments presented in the paper and validate the reported improvements in prediction accuracy for both covalent and non-covalent interactions. We implemented the model using the provided codebase and datasets and evaluated its performance on the Davis, KIBA, and CovalentInDB datasets.
+The TEFDTA model introduced by Zongquan Li et al. combines transformer encoders with fingerprint-based molecular representations, addressing limitations of existing approaches. This study aims to reproduce the model’s experiments and validate its performance in predicting both covalent and non-covalent interactions, thereby confirming its robustness and applicability.
+
+\section{Objectives}
+
+The objective of this work is to faithfully reproduce the experiments presented in the paper "TEFDTA: A Transformer Encoder and Fingerprint Representation Combined Prediction Method for Bonded and Non-Bonded Drug–Target Affinities." This involves implementing the provided code and using the same datasets to validate the model's reported performance. Furthermore, this study seeks to compare the reproduced results with the original findings, assess the model's capability to predict covalent and non-covalent interactions, and evaluate its potential impact on drug discovery methodologies.
 
 \section{Methodology}
 \subsection{Datasets}
-We used the following datasets as described in the paper:
-\begin{itemize}
-	\item \textbf{Davis}: Contains $442$ proteins and $68$ drugs, with a total of $30,056$ binding affinity values.
-	\item \textbf{KIBA}: Consists of $2,111$ drugs, $229$ targets, and $118,254$ bioactivity scores.
-	\item \textbf{CovalentInDB}: A curated dataset of covalent drug–target interactions used to fine-tune the model.
-\end{itemize}
 
-\subsection{Model Implementation}
-The TEFDTA model was implemented as described in the paper:
-\begin{enumerate}
-	\item A transformer encoder was used for feature extraction, combined with a fingerprint-based representation for drug molecules.
-	\item The model was trained on non-covalent interaction datasets (Davis and KIBA) and fine-tuned using CovalentInDB for covalent interactions.
-\end{enumerate}
+We utilized the following datasets, as described in the paper, to train and evaluate the TEFDTA model:
 
-We used the official code repository available at \url{https://github.com/lizongquan01/TEFDTA} to ensure fidelity to the original implementation.
+\begin{itemize} \item \textbf{Davis}: This dataset comprises $442$ proteins and $68$ drugs, resulting in $30,056$ binding affinity values. It is widely used as a benchmark for evaluating drug–target interaction models, particularly for non-covalent interactions. \item \textbf{KIBA}: Consisting of $2,111$ drugs, $229$ targets, and $118,254$ bioactivity scores, this dataset integrates multiple bioactivity metrics to provide a comprehensive benchmark for non-covalent interaction prediction. \item \textbf{CovalentInDB}: A specialized dataset of covalent drug–target interactions, curated to fine-tune the model for predicting bonded interactions. This dataset addresses the scarcity of high-quality data in this emerging area of drug discovery. \end{itemize}
+
+\section{Model Implementation}
+
+The TEFDTA model was implemented following the architecture described in the paper, leveraging both transformer encoders and convolutional neural networks (CNNs) to extract features from molecular structures and protein sequences. This section details the statistical analysis of the datasets and the key components of the model.
+
+\subsection{Statistical Analysis of Benchmark Datasets}
+
+To ensure a robust evaluation, several benchmark datasets were utilized, including KIBA, Davis, BindingDB, and CovalentInDB. These datasets were split into training, validation, and test sets as shown in Table~\ref{tab:datasets}. The statistical analysis highlights the diversity and scale of the data, ensuring the model is trained and tested on a wide range of interactions.
+
+\begin{table}[ht]
+	\centering
+	\caption{Statistical analysis of benchmark datasets and the division of training, validation, and test sets.}
+	\label{tab:datasets}
+	\begin{tabular}{ccccccc}
+		\toprule
+		\textbf{Dataset} & \textbf{No. of Compounds} & \textbf{No. of Proteins} & \textbf{No. of Interactions} & \textbf{Training Set} & \textbf{Validation Set} & \textbf{Test Set} \\
+		\midrule
+		KIBA       & 2111     & 229    & 118,254   & 78,836  & 19,709 & 19,709 \\
+		Davis      & 68,442   & 30,056 & 20,037    & 5009    & 5010   & 5010   \\
+		BindingDB  & 803,234  & 5561   & 1,254,402 & 1,172,682 & 81,720 & 20,001 \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\subsection{Transformer Encoder Block}
+
+The transformer encoder block, inspired by the architecture of Vaswani \textit{et al.} (2017), processes molecular feature maps to capture complex dependencies within the input data. Molecular feature maps, represented as $M_T \in \mathbb{R}^{L_D \times E_D}$, are projected into query ($Q$), key ($K$), and value ($V$) matrices using learnable projection matrices $W_Q, W_K, W_V \in \mathbb{R}^{E_D \times E_D}$:
+
+\begin{equation}
+	Q = M_T W_Q, \quad K = M_T W_K, \quad V = M_T W_V.
+\end{equation}
+
+The self-attention mechanism is applied to model interactions between elements in the molecular representation:
+\begin{equation}
+	\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{Q K^\top}{\sqrt{d_k}}\right)V,
+\end{equation}
+where $d_k = E_D / h$ is the dimension of each attention head, with $h=8$ and $E_D=256$.
+
+Multi-head attention is computed by concatenating the outputs from all attention heads and applying a learnable output projection matrix $W_O$:
+\begin{equation}
+	\text{MultiHead}(Q, K, V) = \text{Concat}(\text{head}_1, \ldots, \text{head}_h) W_O.
+\end{equation}
+
+To enhance stability, residual connections and layer normalization are incorporated, enabling efficient training and robust feature extraction.
+
+\subsection{Convolutional Neural Network (CNN) Block}
+
+Protein sequences are processed using a one-dimensional convolutional neural network (1D-CNN) to extract local features across amino acid sequences. This block consists of three convolutional layers with kernel sizes $k_1, k_2, k_3$ applied sequentially, producing a final representation $M_P$:
+
+\begin{equation}
+	M_P \in \mathbb{R}^{(L_P - h_1 - h_2 - h_3 + 3) \times E_P},
+\end{equation}
+where $L_P$ is the length of the protein sequence, and $h_1, h_2, h_3$ represent the strides of each layer.
+
+\subsection{Integration of Feature Representations}
+
+The outputs from the transformer encoder (drug representations) and the CNN (protein representations) are concatenated to form a joint feature representation. This combined representation is passed through fully connected layers to predict binding affinity scores. The model is trained in two stages: first on non-covalent interaction datasets (Davis and KIBA) and then fine-tuned using CovalentInDB for covalent interactions.
+
+
 
 \section{Results}
 The reproduced results are summarized in Table~\ref{tab:results}. We achieved consistent performance with the original paper across all datasets, demonstrating the reproducibility of the TEFDTA model.
