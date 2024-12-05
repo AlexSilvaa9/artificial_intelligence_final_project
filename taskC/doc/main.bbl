@@ -1,3 +1,16 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{lizongquan2024tefdta}
+Zongquan Li, Xue Li, Miao Zhang, Ruiming Liu, Yi~Liang, Yanjun Sun, Qing Zhang,
+  and Qun Li.
+\newblock Tefdta: a transformer encoder and fingerprint representation combined
+  prediction method for bonded and non-bonded drug–target affinities.
+\newblock {\em Bioinformatics}, 40(1):btad778, 2024.
+
+\bibitem{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, Łukasz Kaiser, and Ilya Polosukhin.
+\newblock Attention is all you need.
+\newblock {\em Advances in Neural Information Processing Systems}, 30, 2017.
 
 \end{thebibliography}
